@@ -59,9 +59,34 @@ const translate1 = () => {
 printToDom(swedStringBuilder, 'userOutput');
 };
 
+const translate2 = () => {
+    let frenchStringBuilder = '';
+    const userArray = userMessage();
+    for (let i = 0; i < userArray.length; i++) {
+        let userChecker = userArray[i];      
+        frenchStringBuilder += `${french[userChecker]} `;
+}
+printToDom(frenchStringBuilder, 'userOutput');
+};
+
+const translate3 = () => {
+    let spanishStringBuilder = '';
+    const userArray = userMessage();
+    for (let i = 0; i < userArray.length; i++) {
+        let userChecker = userArray[i];      
+        spanishStringBuilder += `${spanish[userChecker]} `;
+}
+printToDom(spanishStringBuilder, 'userOutput');
+};
 
 const swedishButton = document.getElementById('swedButton');
+const frenchButton = document.getElementById('frenButton');
+const spanishButton = document.getElementById('spanButton');
+
 swedishButton.addEventListener('click', translate1);
+frenchButton.addEventListener('click', translate2);
+spanishButton.addEventListener('click', translate3);
+
 
 
 
