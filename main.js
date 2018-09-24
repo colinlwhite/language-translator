@@ -54,11 +54,11 @@ const translate1 = () => {
     const userArray = userMessage();
     for (let i = 0; i < userArray.length; i++) {
         let userChecker = userArray[i];      
-        console.log(swedish[userChecker]);
         swedStringBuilder += `${swedish[userChecker]} `;
 }
 printToDom(swedStringBuilder, 'userOutput');
 };
+
 
 const swedishButton = document.getElementById('swedButton');
 swedishButton.addEventListener('click', translate1);
