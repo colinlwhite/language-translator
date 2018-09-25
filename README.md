@@ -6,10 +6,10 @@
 
 # Description 
 
-This project built a grid of cards for Pearl Corporation's different drumset series. We worked on our HTML and css skills by utilizing standard elements, FlexBox, media queries and Google Fonts. 
+We created a a limited dictionary and used it to translate a holiday card message from English into another language. 
 
 # Screenshots
-![Screenshot One](pics/ss1.png)
+![Screenshot Image](lts.png)
 
 
 # Instructions 
